@@ -6,7 +6,7 @@ const App = () => {
     <div className="container">
       <h3 className="teal-text center-align">Todo App</h3>
       <form className="add-item-form">
-        <input type="text" placeholder="What do you want to do today?" required />
+        <input type="text" className="itemField" placeholder="What do you want to do today?" required />
         <button type="button" className="waves-effect btn teal right">Add</button>
       </form>
       <div className="card white darken-1">
